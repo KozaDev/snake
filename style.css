@@ -1,0 +1,22 @@
+.board {
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+}
+
+.board__element {
+  background-color: #53fa38;
+}
+
+.head {
+  background-color: red;
+}
+
+.snake {
+  background-color: black;
+}
+
+.food {
+  background-color: yellow;
+}
